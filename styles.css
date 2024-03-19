@@ -1,0 +1,19 @@
+#header {
+  text-align: center;
+}
+
+#header h1 {
+  margin-top: 50px; /* Adjust as needed */
+}
+
+#game {
+  margin: 0 auto;
+  padding: 20px;
+  width: 80%;
+  max-width: 600px;
+  background-color: #444;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
