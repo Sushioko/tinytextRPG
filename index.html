@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Text-based RPG</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="header">
+    <h1>Text-based RPG</h1>
+  </div>
+
+  <div id="game">
+    <!-- Player Info -->
+    <div class="info" id="player-info">
+      <h2>Player Info</h2>
+      <p>Name: <span id="player-name">Loading...</span></p>
+      <p>HP: <span id="player-hp">Loading...</span></p>
+      <p>Level: <span id="player-level">Loading...</span></p> <!-- New placeholder for level -->
+      <p>Experience: <span id="player-exp">Loading...</span></p> <!-- New placeholder for experience -->
+    </div>
+
+    <!-- Enemy Info -->
+    <div class="info" id="enemy-info">
+      <h2>Enemy Info</h2>
+      <p>Name: <span id="enemy-name">Loading...</span></p>
+      <p>HP: <span id="enemy-hp">Loading...</span></p>
+    </div>
+
+    <!-- Weapons Info -->
+    <div class="info" id="weapons-info">
+      <h2>Weapons</h2>
+      <ul id="weapons-list">
+        <li>Loading...</li>
+      </ul>
+    </div>
+
+    <!-- Actions -->
+    <div id="actions">
+      <button onclick="attack()">Attack</button>
+    </div>
+
+    <!-- Log -->
+    <div id="log"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
